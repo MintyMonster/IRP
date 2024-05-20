@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7056014553427176899
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.21133
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.83137
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8615353001389999206, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 184a0d581ae2e954482dac70a1cbcd21, type: 2}
+    - target: {fileID: -6049671597037426755, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19ea3ac77c83333439c554e61ae96c02, type: 2}
+    - target: {fileID: -4692760489944444445, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 85bb11f18fe655a4d80c42ed6c64bbe6, type: 2}
+    - target: {fileID: -4396642182433536433, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 345520dec0064104a9b07e23baef0f98, type: 2}
+    - target: {fileID: 919132149155446097, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      propertyPath: m_Name
+      value: Viking rigged1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6600050226543517427}
+  m_SourcePrefab: {fileID: 100100000, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+--- !u!1 &7866264677423927442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7f8b3b976dc9cd946ac3b77b6b44b53f, type: 3}
+  m_PrefabInstance: {fileID: 7056014553427176899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &6600050226543517427
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7866264677423927442}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 94bbbe8ae48c2b247b5b05795db69ad0, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 94bbbe8ae48c2b247b5b05795db69ad0, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
