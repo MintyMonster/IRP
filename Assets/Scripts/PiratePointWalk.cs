@@ -11,47 +11,61 @@ public class PiratePointWalk : MonoBehaviour
 
     private NavMeshAgent agent;
     private Animator animator;
-    private Transform currentTarget;
+    public Transform currentTarget { get; private set; }
+    public bool isInteracting { get; set; } = false;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         currentTarget = pointA;
-        agent.speed = 1.4f;
         StartCoroutine(PatrolRoutine());
+        agent.speed = 1.4f;
+    }
+
+    void Update()
+    {
+        
     }
 
     IEnumerator PatrolRoutine()
     {
         while (true)
         {
-            // Set the destination of the agent to the current target
-            agent.SetDestination(currentTarget.position);
-            // Switch to walking animation
-            animator.SetFloat("speed", 1f);
-            Debug.Log("Walking to: " + currentTarget.name);
-
-            // Wait until the agent reaches the target
-            while (!ReachedDestination())
+            if (!isInteracting)
             {
-                yield return null;
+                // Set the destination of the agent to the current target
+                agent.SetDestination(currentTarget.position);
+                // Switch to walking animation
+                animator.SetFloat("speed", 1f);
+                Debug.Log("Walking to: " + currentTarget.name);
+
+                // Wait until the agent reaches the target
+                while (!ReachedDestination())
+                {
+                    yield return null;
+                }
+
+                // Switch to Idle animation
+                Debug.Log("Reached: " + currentTarget.name + ". Switching to idle.");
+                animator.SetFloat("speed", 0f);
+                Debug.Log("Speed set to: " + animator.GetFloat("speed"));
+
+                // Wait for 7 seconds
+                yield return new WaitForSeconds(7f);
+
+                // Switch to the next target
+                currentTarget = currentTarget == pointA ? pointB : pointA;
+                Debug.Log("Next target: " + currentTarget.name);
+
+                // Brief delay to ensure the animator updates correctly before moving again
+                yield return new WaitForSeconds(0.1f);
             }
-
-            // Switch to Idle animation
-            Debug.Log("Reached: " + currentTarget.name + ". Switching to idle.");
-            animator.SetFloat("speed", 0f);
-            Debug.Log("Speed set to: " + animator.GetFloat("speed"));
-
-            // Wait for 7 seconds
-            yield return new WaitForSeconds(6f);
-
-            // Switch to the next target
-            currentTarget = currentTarget == pointA ? pointB : pointA;
-            Debug.Log("Next target: " + currentTarget.name);
-
-            // Brief delay to ensure the animator updates correctly before moving again
-            yield return new WaitForSeconds(0.1f);
+            else
+            {
+                // If interacting, wait a short time before checking again
+                yield return new WaitForSeconds(0.1f);
+            }
         }
     }
 

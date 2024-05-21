@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5abd9eaac9cc3e4585d7e8574c2511c, type: 3}
+  m_Name: leviathans_bay_default-y2kzxfl4z0gqqicdktdcxg
+  m_EditorClassIdentifier: 
+  sceneFullName: workspaces/default-y2kzxfl4z0gqqicdktdcxg/scenes/leviathans_bay
+  apiKey: 4IzzRyqOUarTBbHHwSx7kvrr9araJwFf
+  apiSecret: dQKGEO01qp6ZhikIXigMzlvWzrmzfPb38cyh2EIiH2h9yGo4U7WzsixK5zzZbGIW
+  characters:
+  - agentId: 
+    brainName: workspaces/default-y2kzxfl4z0gqqicdktdcxg/characters/captain_krakenslayer
+    givenName: Captain Krakenslayer
+    characterAssets:
+      rpmModelUri: 
+      rpmImageUriPortrait: 
+      rpmImageUriPosture: 
+      avatarImg: 
+      avatarImgOriginal: 
+      thumbnailProgress: 0
+      avatarProgress: 0
+    thumbnail: {fileID: 0}
+  - agentId: 
+    brainName: workspaces/default-y2kzxfl4z0gqqicdktdcxg/characters/leviathan_guard
+    givenName: Leviathan guard
+    characterAssets:
+      rpmModelUri: 
+      rpmImageUriPortrait: 
+      rpmImageUriPosture: 
+      avatarImg: 
+      avatarImgOriginal: 
+      thumbnailProgress: 0
+      avatarProgress: 0
+    thumbnail: {fileID: 0}
+  - agentId: 
+    brainName: workspaces/default-y2kzxfl4z0gqqicdktdcxg/characters/old_jack
+    givenName: Old Jack
+    characterAssets:
+      rpmModelUri: 
+      rpmImageUriPortrait: 
+      rpmImageUriPosture: 
+      avatarImg: 
+      avatarImgOriginal: 
+      thumbnailProgress: 0
+      avatarProgress: 0
+    thumbnail: {fileID: 0}
+  capabilities:
+    audio: 1
+    emotions: 1
+    interruptions: 1
+    narratedActions: 0
+    regenerateResponse: 1
+    text: 1
+    triggers: 1
+    phonemeInfo: 1
+    relations: 1
+    debugInfo: 0
+    multiAgent: 1
