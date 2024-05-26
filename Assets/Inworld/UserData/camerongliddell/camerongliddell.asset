@@ -37,15 +37,40 @@ MonoBehaviour:
         characterOverloads:
         - defaultCharacterDescription:
             givenName: Captain Krakenslayer
-            description: Captain Krakenslayer, a formidable seafarer renowned for
-              his relentless pursuit and defeat of sea monsters, has made his home
-              at Leviathan's Rest Bay. Nestled between rugged cliffs and turbulent
+            description: Captain Krakenslayer, a formidable seafarer and pirate renowned
+              for his relentless pursuit and defeat of sea monsters, has made his
+              home at Leviathan's Rest Bay. Nestled between rugged cliffs and turbulent
               waters, Leviathan's Rest serves as both a sanctuary and a strategic
               stronghold. Here, Captain Krakenslayer oversees his crew, repairs his
               ship, and plans his next ventures into the deep. The locals, who once
               feared the monsters of the sea, now look to him as their protector
               and hero, their lives intertwined with the legendary figure who turned
               their treacherous bay into a haven.
+          defaultCharacterAssets:
+            rpmModelUri: 
+            rpmImageUriPortrait: 
+            rpmImageUriPosture: 
+            avatarImg: 
+            avatarImgOriginal: 
+            thumbnailProgress: 0
+            avatarProgress: 0
+      - character: workspaces/default-y2kzxfl4z0gqqicdktdcxg/characters/finnian_waverunner
+        characterOverloads:
+        - defaultCharacterDescription:
+            givenName: Finnigan Waverunner
+            description: "Finnian \"Finn\" Waverunner is a well-known quest giver
+              in Leviathan's Rest. With long, tousled hair that cascades past his
+              shoulders and a neatly trimmed beard, he cuts a striking figure against
+              the backdrop of the bustling docks. Clad in a simple beige tunic, Finn
+              prefers practicality over flamboyance, though his presence is far from
+              ordinary. His eyes, a deep shade of green, hold the secrets of countless
+              adventures, and his voice carries the calm authority of one who has
+              faced the untamed sea and lived to tell the tale. Finn is always eager
+              to share his wealth of knowledge with aspiring adventurers, offering
+              quests that promise both peril and reward. Whether it\u2019s uncovering
+              lost treasures or solving ancient mysteries, those who seek out Finn
+              will find themselves embarking on unforgettable journeys guided by
+              his seasoned wisdom."
           defaultCharacterAssets:
             rpmModelUri: 
             rpmImageUriPortrait: 

@@ -29,6 +29,18 @@ MonoBehaviour:
       avatarProgress: 0
     thumbnail: {fileID: 0}
   - agentId: 
+    brainName: workspaces/default-y2kzxfl4z0gqqicdktdcxg/characters/finnian_waverunner
+    givenName: Finnigan Waverunner
+    characterAssets:
+      rpmModelUri: 
+      rpmImageUriPortrait: 
+      rpmImageUriPosture: 
+      avatarImg: 
+      avatarImgOriginal: 
+      thumbnailProgress: 0
+      avatarProgress: 0
+    thumbnail: {fileID: 0}
+  - agentId: 
     brainName: workspaces/default-y2kzxfl4z0gqqicdktdcxg/characters/leviathan_guard
     givenName: Leviathan guard
     characterAssets:

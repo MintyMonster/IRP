@@ -13,15 +13,12 @@ namespace Inworld.Sample.RPM
     public class PlayerControllerRPM : PlayerController3D
     {
         FeedbackCanvas m_FeedbackDlg;
-        InworldCameraController m_CameraController;
         protected void Awake()
         {
-            m_CameraController = GetComponent<InworldCameraController>();
             m_FeedbackDlg = m_FeedbackCanvas.GetComponent<FeedbackCanvas>();
         }
         protected override void HandleCanvas()
         {
-            m_CameraController.enabled = !IsAnyCanvasOpen;
         }
         public override void OpenFeedback(string interactionID, string correlationID)
         {
